@@ -1,7 +1,5 @@
 pipeline {
     agent any
-    environment {
-    }
     stages {
         stage('Delete Previous-Stack') { 
             steps {
