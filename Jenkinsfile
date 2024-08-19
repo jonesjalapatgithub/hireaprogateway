@@ -8,7 +8,7 @@ pipeline {
             }
         stage('Release new-Stack') {
             steps {
-                    sh "aws cloudformation create-stack --capabilities CAPABILITY_IAM --stack-name hireaproapigateway --template-body file://./apigateway.yml"
+                    sh "aws cloudformation create-stack --capabilities CAPABILITY_IAM CAPABILITY_AUTO_EXPAND --stack-name hireaproapigateway --template-body file://./apigateway.yml"
                 }
             }
         }
