@@ -41,7 +41,7 @@ Resources:
           integration.request.path.proxy: method.request.path.proxy
         IntegrationHttpMethod: ANY
         Type: HTTP_PROXY
-        Uri: http://enhanc-publi-kwoaq8whsac8-669147700.us-east-2.elb.amazonaws.com/{proxy}
+        Uri: http://hireap-publi-zqxhkhoasadr-1284408898.us-east-2.elb.amazonaws.com/{proxy}
         PassthroughBehavior: WHEN_NO_MATCH
         IntegrationResponses:
           - StatusCode: 200
